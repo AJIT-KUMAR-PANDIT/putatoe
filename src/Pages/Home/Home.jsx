@@ -5,7 +5,7 @@ import BottomNav from "../../Components/BottomNav/BottomNav";
 const Home = () => {
   return (
     <>
-      <div>
+      <div className={StylesHome.container}>
         <div><BottomNav/></div>
       </div>
     </>
