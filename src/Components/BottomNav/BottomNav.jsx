@@ -20,7 +20,7 @@ const BottomNav = () => {
         <img
           src={logoButtonIcon}
           alt="logoButtonIcon"
-          className={StylesBottomNav.icon}
+          className={StylesBottomNav.iconLogoButton}
         />
         <img
           src={followListIcon}

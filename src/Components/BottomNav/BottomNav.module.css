@@ -3,15 +3,24 @@
     bottom: 0px;
     background-color: white;
     width: 100vw;
-    height: 51px;
+    height: 71px;
 
     padding: 11px 11px 11px opx;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .icon{
-    width: 51px;
+    width: auto;
     height: 51px;
 }
+
+.iconLogoButton{
+    width: auto;
+    height: 61px;
+}
+
 
 .allIcons{
     display: flex;
