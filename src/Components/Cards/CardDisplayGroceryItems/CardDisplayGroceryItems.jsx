@@ -1,6 +1,7 @@
 import React from 'react'
 import StyleCardDisplayGroceryItems from './CardDisplayGroceryItems.module.css'
 import addToCartIcon from '../../../assets/addToCart.svg'
+import loader from '../../../assets/loader.svg'
 
 const CardDisplayGroceryItems = ({image, name, price}) => {
   return (
@@ -8,7 +9,7 @@ const CardDisplayGroceryItems = ({image, name, price}) => {
     <div className={StyleCardDisplayGroceryItems.card}
     style={{border: "2px solid coral",  background: "#ffff"}}
     >
-        <span style={{width: '111px', height: '111px', backgroundImage: `url('${image}')` , backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}}>
+        <span style={{width: '111px', height: '111px', backgroundImage: `url('${image ? image : loader}')` , backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}}>
         </span>
         <br/>
         <span className={StyleCardDisplayGroceryItems.text}>{name}</span>
