@@ -8,6 +8,8 @@ import CardDisplayGrocery from "../../Components/Cards/CardDisplayGrocery/CardDi
 import CardDisplaySellers from "../../Components/Cards/CardDisplaySellers/CardDisplaySellers";
 import CardDisplayGroceryItems from "../../Components/Cards/CardDisplayGroceryItems/CardDisplayGroceryItems";
 import groceriesProduct from "../../assets/data.json";
+import category from "../../assets/categoriesdata.json";
+import sellerData from "../../assets/sellerdata.json";
 
 const Home = () => {
   return (
@@ -39,46 +41,15 @@ const Home = () => {
               overflowX: "scroll",
             }}
           >
-            <CardDisplayGrocery
-              border={"1px solid rgba(83, 177, 117, 0.7)"}
-              backgroundColor={"rgba(83, 177, 117, 0.1)"}
-              name={"Frash Fruits & Vegetable"}
-              image={
-                "https://www.transparentpng.com/thumb/vegetables/all-fruits-and-vegetables-in-basket-background-transparent-veD4qx.png"
-              }
-            />
-            <CardDisplayGrocery
-              border={"1px solid rgba(248, 164, 76, 0.7)"}
-              backgroundColor={"rgba(248, 164, 76, 0.1)"}
-              name={"Cooking Oil & Ghee"}
-              image={
-                "https://purepng.com/public/uploads/large/purepng.com-sunflower-oilsunflower-oilcooking-oilfrying-oilnon-volatile-oil-1411529832890igm2q.png"
-              }
-            />
-            <CardDisplayGrocery
-              border={"1px solid #d3b0e0"}
-              backgroundColor={"rgba(211, 176, 224, 0.25)"}
-              name={"Bakery & Snacks"}
-              image={
-                "https://png.pngtree.com/png-vector/20231213/ourmid/pngtree-gourmet-delicious-bakery-food-snacks-satiating-croissant-png-image_11322979.png"
-              }
-            />
-            <CardDisplayGrocery
-              border={"1px solid #fde598"}
-              backgroundColor={"rgba(253, 229, 152, 0.25)"}
-              name={"Dairy & Eggs"}
-              image={
-                "https://png.pngtree.com/png-clipart/20230504/original/pngtree-3d-food-bread-milk-eggs-three-dimensional-effect-png-image_9136670.png"
-              }
-            />
-            <CardDisplayGrocery
-              border={"1px solid rgba(83, 177, 117, 0.7)"}
-              backgroundColor={"rgba(83, 177, 117, 0.1)"}
-              name={"Beverages"}
-              image={
-                "https://www.freepnglogos.com/uploads/drinks-png/drinks-transparent-mojito-cocktail-png-clipart-best-web-clipart-6.png"
-              }
-            />
+            {category.map((item, index) => (
+              <CardDisplayGrocery
+                key={index}
+                border={item.border}
+                backgroundColor={item.backgroundColor}
+                name={item.name}
+                image={item.image}
+              />
+            ))}
           </div>
           <div className={StylesHome.textShop}>
             <br />
@@ -95,38 +66,19 @@ const Home = () => {
               overflowX: "scroll",
             }}
           >
-            <CardDisplaySellers
-              border={"1px solid rgba(83, 177, 117, 0.7)"}
-              backgroundColor={"rgba(83, 177, 117, 0.1)"}
-              sellerName={"Aruna Super Store"}
-              image={
-                "https://thumbs.dreamstime.com/b/vector-cartoon-illustration-supermarket-grocery-cart-healthy-organic-food-isolated-white-background-caring-199693380.jpg"
-              }
-              address={"Chandigarh, India"}
-              description={"Fresh and Healthy"}
-            />
-            <CardDisplaySellers
-              border={"1px solid rgba(83, 177, 117, 0.7)"}
-              backgroundColor={"rgba(83, 177, 117, 0.1)"}
-              sellerName={"Varuna Super Store"}
-              image={
-                "https://thumbs.dreamstime.com/b/vector-cartoon-illustration-supermarket-grocery-cart-healthy-organic-food-isolated-white-background-caring-199693380.jpg"
-              }
-              address={"delhi, India"}
-              description={"food and Health"}
-            />
-            <CardDisplaySellers
-              border={"1px solid rgba(83, 177, 117, 0.7)"}
-              backgroundColor={"rgba(83, 177, 117, 0.1)"}
-              sellerName={"General Super Store"}
-              image={
-                "https://thumbs.dreamstime.com/b/vector-cartoon-illustration-supermarket-grocery-cart-healthy-organic-food-isolated-white-background-caring-199693380.jpg"
-              }
-              address={"Harayana, India"}
-              description={"Fresh and Healthy"}
-            />
+            {sellerData.map((seller, index) => (
+              <CardDisplaySellers
+                key={index}
+                border={seller.border}
+                backgroundColor={seller.backgroundColor}
+                sellerName={seller.sellerName}
+                image={seller.image}
+                address={seller.address}
+                description={seller.description}
+              />
+            ))}
           </div>
-          <div className={StylesHome.product} >
+          <div className={StylesHome.product}>
             {groceriesProduct.map((product, index) => (
               <CardDisplayGroceryItems
                 key={index}

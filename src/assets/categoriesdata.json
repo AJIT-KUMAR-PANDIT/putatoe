@@ -1,0 +1,32 @@
+[
+    {
+      "name": "Frash Fruits & Vegetable",
+      "border": "1px solid rgba(83, 177, 117, 0.7)",
+      "backgroundColor": "rgba(83, 177, 117, 0.1)",
+      "image": "https://www.transparentpng.com/thumb/vegetables/all-fruits-and-vegetables-in-basket-background-transparent-veD4qx.png"
+    },
+    {
+      "name": "Cooking Oil & Ghee",
+      "border": "1px solid rgba(248, 164, 76, 0.7)",
+      "backgroundColor": "rgba(248, 164, 76, 0.1)",
+      "image": "https://purepng.com/public/uploads/large/purepng.com-sunflower-oilsunflower-oilcooking-oilfrying-oilnon-volatile-oil-1411529832890igm2q.png"
+    },
+    {
+      "name": "Bakery & Snacks",
+      "border": "1px solid #d3b0e0",
+      "backgroundColor": "rgba(211, 176, 224, 0.25)",
+      "image": "https://png.pngtree.com/png-vector/20231213/ourmid/pngtree-gourmet-delicious-bakery-food-snacks-satiating-croissant-png-image_11322979.png"
+    },
+    {
+      "name": "Dairy & Eggs",
+      "border": "1px solid #fde598",
+      "backgroundColor": "rgba(253, 229, 152, 0.25)",
+      "image": "https://png.pngtree.com/png-clipart/20230504/original/pngtree-3d-food-bread-milk-eggs-three-dimensional-effect-png-image_9136670.png"
+    },
+    {
+      "name": "Beverages",
+      "border": "1px solid rgba(83, 177, 117, 0.7)",
+      "backgroundColor": "rgba(83, 177, 117, 0.1)",
+      "image": "https://www.freepnglogos.com/uploads/drinks-png/drinks-transparent-mojito-cocktail-png-clipart-best-web-clipart-6.png"
+    }
+  ]

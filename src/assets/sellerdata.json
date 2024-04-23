@@ -1,0 +1,27 @@
+[
+    {
+      "border": "1px solid rgba(83, 177, 117, 0.7)",
+      "backgroundColor": "rgba(83, 177, 117, 0.1)",
+      "sellerName": "Aruna Super Store",
+      "image": "https://thumbs.dreamstime.com/b/vector-cartoon-illustration-supermarket-grocery-cart-healthy-organic-food-isolated-white-background-caring-199693380.jpg",
+      "address": "Chandigarh, India",
+      "description": "Fresh and Healthy"
+    },
+    {
+      "border": "1px solid rgba(83, 177, 117, 0.7)",
+      "backgroundColor": "rgba(83, 177, 117, 0.1)",
+      "sellerName": "Varuna Super Store",
+      "image": "https://thumbs.dreamstime.com/b/vector-cartoon-illustration-supermarket-grocery-cart-healthy-organic-food-isolated-white-background-caring-199693380.jpg",
+      "address": "Delhi, India",
+      "description": "Food and Health"
+    },
+    {
+      "border": "1px solid rgba(83, 177, 117, 0.7)",
+      "backgroundColor": "rgba(83, 177, 117, 0.1)",
+      "sellerName": "General Super Store",
+      "image": "https://thumbs.dreamstime.com/b/vector-cartoon-illustration-supermarket-grocery-cart-healthy-organic-food-isolated-white-background-caring-199693380.jpg",
+      "address": "Haryana, India",
+      "description": "Fresh and Healthy"
+    }
+  ]
+  
