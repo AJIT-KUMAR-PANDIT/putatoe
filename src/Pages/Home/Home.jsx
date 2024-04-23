@@ -6,6 +6,8 @@ import Silider from "../../Components/Silider/Silider";
 import MidBar from "../../Components/MidBar/MidBar";
 import CardDisplayGrocery from "../../Components/Cards/CardDisplayGrocery/CardDisplayGrocery";
 import CardDisplaySellers from "../../Components/Cards/CardDisplaySellers/CardDisplaySellers";
+import CardDisplayGroceryItems from "../../Components/Cards/CardDisplayGroceryItems/CardDisplayGroceryItems";
+import groceriesProduct from "../../assets/data.json";
 
 const Home = () => {
   return (
@@ -93,36 +95,54 @@ const Home = () => {
               overflowX: "scroll",
             }}
           >
-            <CardDisplaySellers 
-            border={"1px solid rgba(83, 177, 117, 0.7)"}
-            backgroundColor={"rgba(83, 177, 117, 0.1)"}
-            sellerName={"Aruna Super Store"}
-            image={
-              "https://thumbs.dreamstime.com/b/vector-cartoon-illustration-supermarket-grocery-cart-healthy-organic-food-isolated-white-background-caring-199693380.jpg"
-            }
-            address={"Chandigarh, India"}
-            description={"Fresh and Healthy"}
+            <CardDisplaySellers
+              border={"1px solid rgba(83, 177, 117, 0.7)"}
+              backgroundColor={"rgba(83, 177, 117, 0.1)"}
+              sellerName={"Aruna Super Store"}
+              image={
+                "https://thumbs.dreamstime.com/b/vector-cartoon-illustration-supermarket-grocery-cart-healthy-organic-food-isolated-white-background-caring-199693380.jpg"
+              }
+              address={"Chandigarh, India"}
+              description={"Fresh and Healthy"}
             />
-            <CardDisplaySellers 
-            border={"1px solid rgba(83, 177, 117, 0.7)"}
-            backgroundColor={"rgba(83, 177, 117, 0.1)"}
-            sellerName={"Varuna Super Store"}
-            image={
-              "https://thumbs.dreamstime.com/b/vector-cartoon-illustration-supermarket-grocery-cart-healthy-organic-food-isolated-white-background-caring-199693380.jpg"
-            }
-            address={"delhi, India"}
-            description={"food and Health"}
+            <CardDisplaySellers
+              border={"1px solid rgba(83, 177, 117, 0.7)"}
+              backgroundColor={"rgba(83, 177, 117, 0.1)"}
+              sellerName={"Varuna Super Store"}
+              image={
+                "https://thumbs.dreamstime.com/b/vector-cartoon-illustration-supermarket-grocery-cart-healthy-organic-food-isolated-white-background-caring-199693380.jpg"
+              }
+              address={"delhi, India"}
+              description={"food and Health"}
             />
-            <CardDisplaySellers 
-            border={"1px solid rgba(83, 177, 117, 0.7)"}
-            backgroundColor={"rgba(83, 177, 117, 0.1)"}
-            sellerName={"General Super Store"}
-            image={
-              "https://thumbs.dreamstime.com/b/vector-cartoon-illustration-supermarket-grocery-cart-healthy-organic-food-isolated-white-background-caring-199693380.jpg"
-            }
-            address={"Harayana, India"}
-            description={"Fresh and Healthy"}
+            <CardDisplaySellers
+              border={"1px solid rgba(83, 177, 117, 0.7)"}
+              backgroundColor={"rgba(83, 177, 117, 0.1)"}
+              sellerName={"General Super Store"}
+              image={
+                "https://thumbs.dreamstime.com/b/vector-cartoon-illustration-supermarket-grocery-cart-healthy-organic-food-isolated-white-background-caring-199693380.jpg"
+              }
+              address={"Harayana, India"}
+              description={"Fresh and Healthy"}
             />
+          </div>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-evenly",
+              flexWrap: "wrap",
+              gap: "11px",
+              width: "70vw",
+            }}
+          >
+            {groceriesProduct.map((product, index) => (
+              <CardDisplayGroceryItems
+                key={index}
+                name={product.name}
+                price={product.price}
+                image={product.image}
+              />
+            ))}
           </div>
         </div>
         <div className={StylesHome.bottom}></div>
