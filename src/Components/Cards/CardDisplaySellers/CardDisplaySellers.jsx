@@ -17,7 +17,7 @@ const CardDisplaySellers = ({image, sellerName,border, backgroundColor, address,
           <img src='https://www.freeiconspng.com/thumbs/location-icon-png/red-location-icon-map-png-4.png' alt='location' style={{width:'12px', height:'12px'}}/>
           {address}
         </span>
-        <span>{description}</span>
+        <span style={{fontSize:'11px'}}>{description}</span>
     </div>
     </>
   )

@@ -31,8 +31,10 @@ const Home = () => {
             style={{
               display: "flex",
               justifyContent: "space-evenly",
-              flexWrap: "wrap",
+              flexWrap: "nowrap",
               gap: "11px",
+              width: "100vw",
+              overflowX: "scroll",
             }}
           >
             <CardDisplayGrocery
@@ -85,8 +87,10 @@ const Home = () => {
             style={{
               display: "flex",
               justifyContent: "space-evenly",
-              flexWrap: "wrap",
+              flexWrap: "nowrap",
               gap: "11px",
+              width: "100vw",
+              overflowX: "scroll",
             }}
           >
             <CardDisplaySellers 
@@ -97,6 +101,26 @@ const Home = () => {
               "https://thumbs.dreamstime.com/b/vector-cartoon-illustration-supermarket-grocery-cart-healthy-organic-food-isolated-white-background-caring-199693380.jpg"
             }
             address={"Chandigarh, India"}
+            description={"Fresh and Healthy"}
+            />
+            <CardDisplaySellers 
+            border={"1px solid rgba(83, 177, 117, 0.7)"}
+            backgroundColor={"rgba(83, 177, 117, 0.1)"}
+            sellerName={"Varuna Super Store"}
+            image={
+              "https://thumbs.dreamstime.com/b/vector-cartoon-illustration-supermarket-grocery-cart-healthy-organic-food-isolated-white-background-caring-199693380.jpg"
+            }
+            address={"delhi, India"}
+            description={"food and Health"}
+            />
+            <CardDisplaySellers 
+            border={"1px solid rgba(83, 177, 117, 0.7)"}
+            backgroundColor={"rgba(83, 177, 117, 0.1)"}
+            sellerName={"General Super Store"}
+            image={
+              "https://thumbs.dreamstime.com/b/vector-cartoon-illustration-supermarket-grocery-cart-healthy-organic-food-isolated-white-background-caring-199693380.jpg"
+            }
+            address={"Harayana, India"}
             description={"Fresh and Healthy"}
             />
           </div>
