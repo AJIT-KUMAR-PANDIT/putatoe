@@ -1,0 +1,22 @@
+.midNav{
+    background-color: white;
+    width: 100vw;
+    height: 111px;
+
+    padding: 11px 11px 11px opx;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icon{
+    width: auto;
+    height: 91px;
+}
+
+.allIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

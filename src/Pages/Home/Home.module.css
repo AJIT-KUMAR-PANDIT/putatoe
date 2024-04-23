@@ -1,0 +1,22 @@
+.shop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+}
+
+.textShop{
+    color: #057A85FF;
+    font-size: larger;
+}
+
+.textGrocery{
+    color: #057A85FF;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.bottom{
+    height:91px;
+}
