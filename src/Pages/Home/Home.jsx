@@ -126,15 +126,7 @@ const Home = () => {
               description={"Fresh and Healthy"}
             />
           </div>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "space-evenly",
-              flexWrap: "wrap",
-              gap: "11px",
-              width: "70vw",
-            }}
-          >
+          <div className={StylesHome.product} >
             {groceriesProduct.map((product, index) => (
               <CardDisplayGroceryItems
                 key={index}

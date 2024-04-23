@@ -1,4 +1,4 @@
-.shop{
+.shop {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,26 +6,40 @@
     gap: 21px;
 }
 
-.textShop{
+.textShop {
     color: #057A85FF;
     font-size: larger;
 }
 
-.textGrocery{
+.textGrocery {
     color: #057A85FF;
     font-size: larger;
     font-weight: 700;
 }
 
-.bottom{
-    height:91px;
+.bottom {
+    height: 91px;
 }
 
-.top{
+.top {
     height: 41px;
 }
 
-.SearchBar{
+.SearchBar {
     position: fixed;
     width: 100vw;
+}
+
+.product {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 11px;
+    width: 70vw;
+}
+
+@media screen and (max-width: 425px) {
+    .product {
+        width: 100vw;
+    }
 }
