@@ -26,7 +26,7 @@ const Home = () => {
             SHOP BY CATEGORY
           </div>
           <div className={StylesHome.textGrocery}>Grocery</div>
-          <div style={{display: "flex", justifyContent: "space-evenly", flexWrap: "wrap" , gap:"21px"}}>
+          <div style={{display: "flex", justifyContent: "space-evenly", flexWrap: "wrap" , gap:"11px"}}>
             <CardDisplayGrocery
               border={"1px solid rgba(83, 177, 117, 0.7)"}
               backgroundColor={"rgba(83, 177, 117, 0.1)"}
