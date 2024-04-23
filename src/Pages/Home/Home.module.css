@@ -20,3 +20,12 @@
 .bottom{
     height:91px;
 }
+
+.top{
+    height: 41px;
+}
+
+.SearchBar{
+    position: fixed;
+    width: 100vw;
+}
