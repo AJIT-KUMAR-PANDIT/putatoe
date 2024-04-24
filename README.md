@@ -1,7 +1,7 @@
 # What is This
 
 This Is Assignment Test by Putatoe Solutions Private Limited for Web Development internship
-this is developed using ReactJs by @Ajit-Kumar_Pandit
+this is developed using ReactJs by (@Ajit-Kumar_Pandit)
 
 # Deployed Link
 
