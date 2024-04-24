@@ -3,7 +3,7 @@ import StyleCardDisplayGroceryItems from './CardDisplayGroceryItems.module.css'
 import addToCartIcon from '../../../assets/addToCart.svg'
 import loader from '../../../assets/loader.svg'
 
-const CardDisplayGroceryItems = ({image, name, price}) => {
+const CardDisplayGroceryItems = ({image, name, price, quantity}) => {
   return (
     <>
     <div className={StyleCardDisplayGroceryItems.card}
@@ -13,6 +13,7 @@ const CardDisplayGroceryItems = ({image, name, price}) => {
         </span>
         <br/>
         <span className={StyleCardDisplayGroceryItems.text}>{name}</span>
+        <span className={StyleCardDisplayGroceryItems.text2}>Qty:{quantity}</span>
         <span className={StyleCardDisplayGroceryItems.textPrice}>{price}
         <img src={addToCartIcon} alt="addToCartIcon" style={{width:'51px', height:'51px'}} />
         </span>
