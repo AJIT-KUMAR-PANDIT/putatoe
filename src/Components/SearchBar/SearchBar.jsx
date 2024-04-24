@@ -9,6 +9,24 @@ const SearchBar = () => {
   return (
     <>
       <div className={StylesSearchBar.searchBar}>
+      <div className={StylesSearchBar.locationContainer}>
+          <img
+            src="https://www.freeiconspng.com/uploads/red-location-icon-map-png-4.png"
+            alt="location"
+            style={{width:'18px', height:'18px'}}
+            // className={StylesSearchBar.icon}
+          />
+          <input
+            type="text"
+            // className={StylesSearchBar.textbox}
+            placeholder="Enter Your Location..."
+            value={value}
+            onChange={(e) => {
+              setValue(e.target.value);
+            }}
+          />
+        </div>
+
         <div className={StylesSearchBar.insideContainer}>
           <img
             src={searchIcon}

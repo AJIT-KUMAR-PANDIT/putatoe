@@ -23,6 +23,11 @@
     max-width: 651px;
 }
 
+.locationContainer{
+    position: fixed;
+    top: 3px;
+}
+
 .icon{
     float: inline-start;
     position: relative;
