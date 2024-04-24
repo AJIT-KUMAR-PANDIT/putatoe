@@ -1,0 +1,78 @@
+[
+    {
+        "name": "Apple",
+        "price": "₹ 100",
+        "image": "https://www.transparentpng.com/download/apple-fruit/iVyuBZ-apple-fruit-clipart-hd.png",
+        "quantity": "One Unit"
+    },
+    {
+        "name" : "Banana",
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Bananas_white_background_DS.jpg/320px-Bananas_white_background_DS.jpg",
+        "price" : "₹ 12"
+      },
+      {
+        "name" : "Grapes",
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Table_grapes_on_white.jpg/320px-Table_grapes_on_white.jpg",
+        "weight": 0.1,
+        "price" : "₹ 45"
+      },
+      {
+        "name" : "Pineapple",
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Pineapple_and_cross_section.jpg/286px-Pineapple_and_cross_section.jpg",
+        "price" : "₹ 200"
+      },
+    {
+        "name": "Cabbage",
+        "image": "https://www.freepngimg.com/thumb/categories/2970.png",
+        "quantity": "One Unit",
+        "price": "₹ 30"
+    },
+    {
+        "name": "Capsicum",
+        "image": "https://www.nicepng.com/png/detail/52-525615_green-bell-pepper-png-green-capsicum-png.png",
+        "quantity": "One Unit",
+        "price": "₹ 5"
+    },
+    {
+        "name": "Garlic",
+        "image": "https://www.freepngimg.com/thumb/garlic/2-2-garlic-transparent-thumb.png",
+        "quantity": "One Unit",
+        "price": "₹ 20"
+    },
+    {
+        "name": "Beetroot",
+        "image": "https://pngimg.com/uploads/beet/beet_PNG28.png",
+        "quantity": "One Unit",
+        "price": "₹ 20"
+    },
+    {
+        "name": "Tomatoes",
+        "image": "https://www.freepngimg.com/thumb/categories/2985.png",
+        "quantity": "One Unit",
+        "price": "₹ 5"
+    },
+    {
+        "name": "Celeriac",
+        "image": "https://w7.pngwing.com/pngs/252/146/png-transparent-celeriac-leaf-vegetable-food-celery-herbes-leaf-vegetable-food-plant-stem-thumbnail.png",
+        "quantity": "One Bunch",
+        "price": "₹ 5"
+    },
+    {
+        "name": "Carrots",
+        "image": "https://www.freepngimg.com/thumb/categories/2971.png",
+        "quantity": "One Kg",
+        "price": "₹ 60"
+    },
+    {
+        "name": "Onions",
+        "image": "https://www.freepngimg.com/thumb/onion/10-red-onion-png-image-thumb.png",
+        "quantity": "One Kg",
+        "price": "₹ 120"
+    },
+    {
+        "name": "Potatoes",
+        "image": "https://www.freepngimg.com/thumb/potato/7-potato-png-images-pictures-download-thumb.png",
+        "quantity": "One container",
+        "price": "₹ 80"
+    }
+]

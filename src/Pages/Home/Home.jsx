@@ -13,6 +13,11 @@ import sellerData from "../../assets/sellerdata.json";
 import LogoCircle from "../../Components/LogoCircle/LogoCircle";
 import logo from "../../assets/putatoeLogo.png";
 import loader from "../../assets/loader.svg";
+import fruitsNveg from "../../assets/fruitsNveg.json";
+import bakery from "../../assets/bakery.json";
+import dairy from "../../assets/dairy.json";
+import drinks from "../../assets/drinks.json";
+import oil from "../../assets/oil.json";
 
 const Home = () => {
   const [isVisible, setIsVisible] = useState(true);
@@ -38,8 +43,8 @@ const Home = () => {
             backgroundColor: "#00838f",
           }}
         >
-          <img src={logo} height={"auto"} width={"211px"}  alt="logo"/>
-          <img src={loader} height={"auto"} width={"111px"}  alt="loader"/>
+          <img src={logo} height={"auto"} width={"211px"} alt="logo" />
+          <img src={loader} height={"auto"} width={"111px"} alt="loader" />
         </div>
       ) : (
         <div className={StylesHome.container}>
@@ -105,9 +110,11 @@ const Home = () => {
                 />
               ))}
             </div>
-            <div className={StylesHome.textGrocery}>Frash Fruits & Vegetable</div>
+            <div className={StylesHome.textGrocery}>
+              Frash Fruits & Vegetable
+            </div>
             <div className={StylesHome.product}>
-              {groceriesProduct.map((product, index) => (
+              {fruitsNveg.map((product, index) => (
                 <CardDisplayGroceryItems
                   key={index}
                   name={product.name}
@@ -118,7 +125,7 @@ const Home = () => {
             </div>
             <div className={StylesHome.textGrocery}>Cooking Oil & Ghee</div>
             <div className={StylesHome.product}>
-              {groceriesProduct.map((product, index) => (
+              {oil.map((product, index) => (
                 <CardDisplayGroceryItems
                   key={index}
                   name={product.name}
@@ -129,7 +136,7 @@ const Home = () => {
             </div>
             <div className={StylesHome.textGrocery}>Bakery & Snacks</div>
             <div className={StylesHome.product}>
-              {groceriesProduct.map((product, index) => (
+              {bakery.map((product, index) => (
                 <CardDisplayGroceryItems
                   key={index}
                   name={product.name}
@@ -140,7 +147,7 @@ const Home = () => {
             </div>
             <div className={StylesHome.textGrocery}>Dairy & Eggs</div>
             <div className={StylesHome.product}>
-              {groceriesProduct.map((product, index) => (
+              {dairy.map((product, index) => (
                 <CardDisplayGroceryItems
                   key={index}
                   name={product.name}
@@ -151,7 +158,7 @@ const Home = () => {
             </div>
             <div className={StylesHome.textGrocery}>Beverages</div>
             <div className={StylesHome.product}>
-              {groceriesProduct.map((product, index) => (
+              {drinks.map((product, index) => (
                 <CardDisplayGroceryItems
                   key={index}
                   name={product.name}
@@ -163,6 +170,46 @@ const Home = () => {
             <div className={StylesHome.textGrocery}>All Products</div>
             <div className={StylesHome.productAll}>
               {groceriesProduct.map((product, index) => (
+                <CardDisplayGroceryItems
+                  key={index}
+                  name={product.name}
+                  price={product.price}
+                  image={product.image}
+                />
+              ))}
+              {fruitsNveg.map((product, index) => (
+                <CardDisplayGroceryItems
+                  key={index}
+                  name={product.name}
+                  price={product.price}
+                  image={product.image}
+                />
+              ))}
+              {oil.map((product, index) => (
+                <CardDisplayGroceryItems
+                  key={index}
+                  name={product.name}
+                  price={product.price}
+                  image={product.image}
+                />
+              ))}
+              {bakery.map((product, index) => (
+                <CardDisplayGroceryItems
+                  key={index}
+                  name={product.name}
+                  price={product.price}
+                  image={product.image}
+                />
+              ))}
+              {dairy.map((product, index) => (
+                <CardDisplayGroceryItems
+                  key={index}
+                  name={product.name}
+                  price={product.price}
+                  image={product.image}
+                />
+              ))}
+              {drinks.map((product, index) => (
                 <CardDisplayGroceryItems
                   key={index}
                   name={product.name}

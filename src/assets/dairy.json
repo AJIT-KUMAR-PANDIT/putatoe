@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Milk",
+        "price": "₹ 50",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd13y08LerO9HuTXnFUdQ7HBUyPXnatbDF-CM01Kj8uJ-YJjYm40gYsfJPMbtNcswrc6E&usqp=CAU"
+    },
+    {
+        "name": "Eggs",
+        "price": "₹ 230",
+        "image": "https://static.vecteezy.com/system/resources/previews/025/224/881/original/package-of-eggs-in-storage-from-a-farm-isolated-on-transparent-background-ai-generated-png.png"
+    },
+    {
+        "name": "Butter",
+        "price": "₹ 240",
+        "image": "https://pngimg.com/d/butter_PNG12.png"
+    },
+    {
+        "name": "Cheese",
+        "price": "₹ 250",
+        "image": "https://static.vecteezy.com/system/resources/thumbnails/009/354/733/small/cheese-clipart-design-illustration-free-png.png"
+    }
+]

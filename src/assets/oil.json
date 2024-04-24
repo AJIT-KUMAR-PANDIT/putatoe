@@ -1,0 +1,22 @@
+[
+  {
+      "name": "Oil (5ltrs)",
+      "price": "₹ 50",
+      "image": "https://qph.cf2.quoracdn.net/main-qimg-771d07b3c07f38b1679174c4ffedcf4f-lq"
+  },
+  {
+      "name": "Oil (2.5ltrs)",
+      "price": "₹ 230",
+      "image": "https://www.sowfresh.in/cdn/shop/products/Image28_1000x1000.png?v=1627879420"
+  },
+  {
+      "name": "Ghee",
+      "price": "₹ 240",
+      "image": "https://greenandgreyagro.com/cdn/shop/products/ghee_grande.webp?v=1678538959"
+  },
+  {
+      "name": "Ghee",
+      "price": "₹ 250",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2022/1/MZ/PK/XP/145472369/cow-ghee-500x500.jpg"
+  }
+]
