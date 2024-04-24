@@ -83,7 +83,6 @@ const Home = () => {
               <br />
               Best Sellers For Daily Needs
             </div>
-            <div className={StylesHome.textGrocery}>Beverages</div>
             <div
               style={{
                 display: "flex",
@@ -106,7 +105,63 @@ const Home = () => {
                 />
               ))}
             </div>
+            <div className={StylesHome.textGrocery}>Frash Fruits & Vegetable</div>
             <div className={StylesHome.product}>
+              {groceriesProduct.map((product, index) => (
+                <CardDisplayGroceryItems
+                  key={index}
+                  name={product.name}
+                  price={product.price}
+                  image={product.image}
+                />
+              ))}
+            </div>
+            <div className={StylesHome.textGrocery}>Cooking Oil & Ghee</div>
+            <div className={StylesHome.product}>
+              {groceriesProduct.map((product, index) => (
+                <CardDisplayGroceryItems
+                  key={index}
+                  name={product.name}
+                  price={product.price}
+                  image={product.image}
+                />
+              ))}
+            </div>
+            <div className={StylesHome.textGrocery}>Bakery & Snacks</div>
+            <div className={StylesHome.product}>
+              {groceriesProduct.map((product, index) => (
+                <CardDisplayGroceryItems
+                  key={index}
+                  name={product.name}
+                  price={product.price}
+                  image={product.image}
+                />
+              ))}
+            </div>
+            <div className={StylesHome.textGrocery}>Dairy & Eggs</div>
+            <div className={StylesHome.product}>
+              {groceriesProduct.map((product, index) => (
+                <CardDisplayGroceryItems
+                  key={index}
+                  name={product.name}
+                  price={product.price}
+                  image={product.image}
+                />
+              ))}
+            </div>
+            <div className={StylesHome.textGrocery}>Beverages</div>
+            <div className={StylesHome.product}>
+              {groceriesProduct.map((product, index) => (
+                <CardDisplayGroceryItems
+                  key={index}
+                  name={product.name}
+                  price={product.price}
+                  image={product.image}
+                />
+              ))}
+            </div>
+            <div className={StylesHome.textGrocery}>All Products</div>
+            <div className={StylesHome.productAll}>
               {groceriesProduct.map((product, index) => (
                 <CardDisplayGroceryItems
                   key={index}
