@@ -6,6 +6,10 @@ This is an assignment test by Putatoe Solutions Private Limited for the Web Deve
 
 This is the deployed link of the project: [Putatoe Home](https://putatoe-home.netlify.app/)
 
+# Source Code
+
+[Putatoe Home Source](https://github.com/AJIT-KUMAR-PANDIT/putatoe)
+
 # Requirements to Run Locally
 
 1. Internet Connectivity (because some of the assets in this site are directly integrated from the web)
