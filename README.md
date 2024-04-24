@@ -1,6 +1,6 @@
 # What is This
 
-This is an assignment test by Putatoe Solutions Private Limited for the Web Development internship. It is developed using ReactJS by [@AJIT-KUMAR-PANDIT](https://github.com/AJIT-KUMAR-PANDIT).
+This is an assignment test by Putatoe Solutions Private Limited for the Web Development internship. It is developed using [ReactJS](https://react.dev/) by [@AJIT-KUMAR-PANDIT](https://github.com/AJIT-KUMAR-PANDIT).
 
 # Deployed Link
 
