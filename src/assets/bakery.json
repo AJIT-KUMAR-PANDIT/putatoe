@@ -1,114 +1,114 @@
 [
     {
-        "id": 1,
         "name": "Lemon cheesecake",
         "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/lemoncheese_cake.jpg",
         "price": "₹ 100",
-        "quantity": "1 Unit"
+        "quantity": "1 Unit",
+        "stock": true
     },
     {
-        "id": 2,
         "name": "Victoria sponge",
         "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/victoria_sponge.jpg",
         "price": "₹ 30",
-        "quantity": "1 Unit"
+        "quantity": "1 Unit",
+        "stock": false
     },
     {
-        "id": 3,
         "name": "Carrot cake",
         "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/carrot_cake.jpg",
         "price": "₹ 5",
-        "quantity": "1 Unit"
+        "quantity": "1 Unit",
+        "stock": true
     },
     {
-        "id": 4,
         "name": "Banana cake",
         "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/banana_cake.jpg",
         "price": "₹ 20",
-        "quantity": "1 Unit"
+        "quantity": "1 Unit",
+        "stock": false
     },
     {
-        "id": 5,
         "name": "Birthday cake",
         "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/birthday_cake.JPG",
         "price": "₹ 5",
-        "quantity": "1 Unit"
+        "quantity": "1 Unit",
+        "stock": true
     },
     {
-        "id": 6,
         "name": "Avocado cake",
         "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/avocado_cake.jpg",
         "price": "₹ 5",
-        "quantity": "1 Unit"
+        "quantity": "1 Unit",
+        "stock": false
     },
     {
-        "id": 7,
         "name": "Chocolate cake",
         "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/chocolate_cake.jpg",
         "price": "₹ 20",
-        "quantity": "1 Unit"
+        "quantity": "1 Unit",
+        "stock": true
     },
     {
-        "id": 8,
         "name": "Clementine cake",
         "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/clementine_cake.png",
         "price": "₹ 5",
-        "quantity": "1 Unit"
+        "quantity": "1 Unit",
+        "stock": false
     },
     {
-        "id": 9,
         "name": "Fudge cake",
         "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/fudge_cake.jpg",
         "price": "₹ 60",
-        "quantity": "1 Unit"
+        "quantity": "1 Unit",
+        "stock": true
     },
     {
-        "id": 10,
         "name": "Spice cake",
         "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/spice_cake.jpg",
         "price": "₹ 120",
-        "quantity": "1 Unit"
+        "quantity": "1 Unit",
+        "stock": false
     },
     {
-        "id": 11,
         "name": "Jewish apple cake",
         "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/jewish_apple_cake.jpg",
         "price": "₹ 80",
-        "quantity": "1 Unit"
+        "quantity": "1 Unit",
+        "stock": true
     },
     {
-        "id": 12,
         "name": "Plum cake",
         "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/plum_cake.jpg",
         "price": "₹ 100",
-        "quantity": "1 Unit"
+        "quantity": "1 Unit",
+        "stock": false
     },
     {
-        "id": 13,
         "name": "Apple cake",
         "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/apple_cake.JPG",
         "price": "₹ 30",
-        "quantity": "1 Unit"
+        "quantity": "1 Unit",
+        "stock": true
     },
     {
-        "id": 14,
         "name": "Bulla cake",
         "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/bulla_cake.jpg",
         "price": "₹ 5",
-        "quantity": "1 Unit"
+        "quantity": "1 Unit",
+        "stock": false
     },
     {
-        "id": 15,
         "name": "Jaffa cake",
         "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/jaffa_cake.png",
         "price": "₹ 100",
-        "quantity": "1 Unit"
+        "quantity": "1 Unit",
+        "stock": true
     },
     {
-        "id": 16,
         "name": "Strawberry cake",
         "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/strawberry_cake.jpg",
         "price": "₹ 80",
-        "quantity": "1 Unit"
+        "quantity": "1 Unit",
+        "stock": false
     }
 ]

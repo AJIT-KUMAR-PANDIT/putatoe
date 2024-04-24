@@ -41,3 +41,33 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.inStock{
+    color: rgb(1, 6, 1);
+    background-color: rgb(27, 212, 18);
+    font-size: medium;
+    float: left;
+    position: relative;
+    left: 61px;
+    height: 21px;
+    width: 61px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outStock{
+    color: rgb(1, 6, 1);
+    background-color: rgb(212, 18, 18);
+    font-size: medium;
+    float: left;
+    position: relative;
+    left: 91px;
+    height: 21px;
+    width: 91px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

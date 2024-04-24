@@ -3,9 +3,13 @@ import StyleCardDisplayGroceryItems from './CardDisplayGroceryItems.module.css'
 import addToCartIcon from '../../../assets/addToCart.svg'
 import loader from '../../../assets/loader.svg'
 
-const CardDisplayGroceryItems = ({image, name, price, quantity}) => {
+const CardDisplayGroceryItems = ({image, name, price, quantity, stock}) => {
   return (
     <>
+     <div style={{display: 'flex'}}>
+     {
+      stock ? <span className={StyleCardDisplayGroceryItems.inStock}>In Stock</span> : <span className={StyleCardDisplayGroceryItems.outStock}>Stock Over</span>
+     }
     <div className={StyleCardDisplayGroceryItems.card}
     style={{border: "2px solid coral",  background: "#ffff"}}
     >
@@ -18,6 +22,7 @@ const CardDisplayGroceryItems = ({image, name, price, quantity}) => {
         <img src={addToCartIcon} alt="addToCartIcon" style={{width:'51px', height:'51px'}} />
         </span>
     </div>
+     </div>
     </>
   )
 }

@@ -3,60 +3,70 @@
         "name": "Cocktail",
         "image": "https://www.thecocktaildb.com/images/media/drink/qyyvtu1468878544.jpg",
         "price": "₹ 80",
-        "quantity": 5
+        "quantity": 5,
+        "stock": true
     },
     {
         "name": "Ordinary Drink",
         "image": "https://www.thecocktaildb.com/images/media/drink/trptts1454514474.jpg",
         "price": "₹ 80",
-        "quantity": 3
+        "quantity": 3,
+        "stock": false
     },
     {
         "name": "Ordinary Drink",
         "image": "https://www.thecocktaildb.com/images/media/drink/ssxvww1472669166.jpg",
         "price": "₹ 80",
-        "quantity": 7
+        "quantity": 7,
+        "stock": true
     },
     {
         "name": "Ordinary Drink",
         "image": "https://www.thecocktaildb.com/images/media/drink/vyrvxt1461919380.jpg",
         "price": "₹ 80",
-        "quantity": 4
+        "quantity": 4,
+        "stock": true
     },
     {
         "name": "Other/Unknown",
         "image": "https://www.thecocktaildb.com/images/media/drink/tqxyxx1472719737.jpg",
         "price": "₹ 80",
-        "quantity": 6
+        "quantity": 6,
+        "stock": false
     },
     {
         "name": "Shot",
         "image": "https://www.thecocktaildb.com/images/media/drink/rsvtrr1472668201.jpg",
         "price": "₹ 80",
-        "quantity": 8
+        "quantity": 8,
+        "stock": true
     },
     {
         "name": "Ordinary Drink",
         "image": "https://www.thecocktaildb.com/images/media/drink/ysqwwt1461919465.jpg",
         "price": "₹ 80",
-        "quantity": 10
+        "quantity": 10,
+        "stock": false
     },
     {
         "name": "Ordinary Drink",
         "image": "https://www.thecocktaildb.com/images/media/drink/wxrsxx1472720734.jpg",
         "price": "₹ 80",
-        "quantity": 2
+        "quantity": 2,
+        "stock": true
     },
     {
         "name": "Ordinary Drink",
         "image": "https://www.thecocktaildb.com/images/media/drink/xrl66i1493068702.jpg",
         "price": "₹ 80",
-        "quantity": 9
+        "quantity": 9,
+        "stock": false
     },
     {
         "name": "Cocktail",
         "image": "https://www.thecocktaildb.com/images/media/drink/vuquyv1468876052.jpg",
         "price": "₹ 80",
-        "quantity": 5
+        "quantity": 5,
+        "stock": true
     }
 ]

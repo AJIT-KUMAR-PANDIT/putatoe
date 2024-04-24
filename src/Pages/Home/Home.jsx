@@ -49,7 +49,7 @@ const Home = () => {
         </div>
       ) : (
         <div className={StylesHome.container}>
-          <div className={StylesHome.SearchBar}>
+          <div className={StylesHome.SearchBar} style={{ zIndex: "11" }}>
             <SearchBar />
           </div>
           <div className={StylesHome.top}></div>
@@ -112,8 +112,7 @@ const Home = () => {
                 />
               ))}
             </div>
-            <div
-              className={StylesHome.textGrocery} id="0">
+            <div className={StylesHome.textGrocery} id="0">
               Fresh Fruits & Vegetable
             </div>
             <div className={StylesHome.product}>
@@ -124,10 +123,13 @@ const Home = () => {
                   price={product.price}
                   image={product.image}
                   quantity={product.quantity}
+                  stock={product.stock}
                 />
               ))}
             </div>
-            <div className={StylesHome.textGrocery} id="1">Cooking Oil & Ghee</div>
+            <div className={StylesHome.textGrocery} id="1">
+              Cooking Oil & Ghee
+            </div>
             <div className={StylesHome.product}>
               {oil.map((product, index) => (
                 <CardDisplayGroceryItems
@@ -136,10 +138,13 @@ const Home = () => {
                   price={product.price}
                   image={product.image}
                   quantity={product.quantity}
+                  stock={product.stock}
                 />
               ))}
             </div>
-            <div className={StylesHome.textGrocery} id="2">Bakery & Snacks</div>
+            <div className={StylesHome.textGrocery} id="2">
+              Bakery & Snacks
+            </div>
             <div className={StylesHome.product}>
               {bakery.map((product, index) => (
                 <CardDisplayGroceryItems
@@ -148,10 +153,13 @@ const Home = () => {
                   price={product.price}
                   image={product.image}
                   quantity={product.quantity}
+                  stock={product.stock}
                 />
               ))}
             </div>
-            <div className={StylesHome.textGrocery} id="3">Dairy & Eggs</div>
+            <div className={StylesHome.textGrocery} id="3">
+              Dairy & Eggs
+            </div>
             <div className={StylesHome.product}>
               {dairy.map((product, index) => (
                 <CardDisplayGroceryItems
@@ -160,10 +168,13 @@ const Home = () => {
                   price={product.price}
                   image={product.image}
                   quantity={product.quantity}
+                  stock={product.stock}
                 />
               ))}
             </div>
-            <div className={StylesHome.textGrocery} id="4">Beverages</div>
+            <div className={StylesHome.textGrocery} id="4">
+              Beverages
+            </div>
             <div className={StylesHome.product}>
               {drinks.map((product, index) => (
                 <CardDisplayGroceryItems
@@ -172,10 +183,13 @@ const Home = () => {
                   price={product.price}
                   image={product.image}
                   quantity={product.quantity}
+                  stock={product.stock}
                 />
               ))}
             </div>
-            <div className={StylesHome.textGrocery} id="5">All Products</div>
+            <div className={StylesHome.textGrocery} id="5">
+              All Products
+            </div>
             <div className={StylesHome.productAll}>
               {groceriesProduct.map((product, index) => (
                 <CardDisplayGroceryItems
@@ -184,6 +198,7 @@ const Home = () => {
                   price={product.price}
                   image={product.image}
                   quantity={product.quantity}
+                  stock={product.stock}
                 />
               ))}
               {fruitsNveg.map((product, index) => (
@@ -193,6 +208,7 @@ const Home = () => {
                   price={product.price}
                   image={product.image}
                   quantity={product.quantity}
+                  stock={product.stock}
                 />
               ))}
               {oil.map((product, index) => (
@@ -202,6 +218,7 @@ const Home = () => {
                   price={product.price}
                   image={product.image}
                   quantity={product.quantity}
+                  stock={product.stock}
                 />
               ))}
               {bakery.map((product, index) => (
@@ -211,6 +228,7 @@ const Home = () => {
                   price={product.price}
                   image={product.image}
                   quantity={product.quantity}
+                  stock={product.stock}
                 />
               ))}
               {dairy.map((product, index) => (
@@ -220,6 +238,7 @@ const Home = () => {
                   price={product.price}
                   image={product.image}
                   quantity={product.quantity}
+                  stock={product.stock}
                 />
               ))}
               {drinks.map((product, index) => (
@@ -229,6 +248,7 @@ const Home = () => {
                   price={product.price}
                   image={product.image}
                   quantity={product.quantity}
+                  stock={product.stock}
                 />
               ))}
             </div>

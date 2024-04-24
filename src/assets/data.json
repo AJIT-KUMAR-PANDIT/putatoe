@@ -3,102 +3,119 @@
         "name": "Apple",
         "price": "₹ 100",
         "image": "https://www.transparentpng.com/download/apple-fruit/iVyuBZ-apple-fruit-clipart-hd.png",
-        "quantity": 5
+        "quantity": 5,
+        "stock": true
     },
     {
         "name": "Milk",
         "price": "₹ 50",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd13y08LerO9HuTXnFUdQ7HBUyPXnatbDF-CM01Kj8uJ-YJjYm40gYsfJPMbtNcswrc6E&usqp=CAU",
-        "quantity": 3
+        "quantity": 3,
+        "stock": false
     },
     {
         "name": "Carrot",
         "price": "₹ 80",
         "image": "https://static.vecteezy.com/system/resources/previews/027/216/290/original/red-carrot-red-carrot-transparent-background-ai-generated-free-png.png",
-        "quantity": 7
+        "quantity": 7,
+        "stock": true
     },
     {
         "name": "Tomato",
         "price": "₹ 70",
         "image": "https://png.pngtree.com/png-clipart/20230113/ourmid/pngtree-red-fresh-tomato-with-green-leaf-png-image_6561484.png",
-        "quantity": 4
+        "quantity": 4,
+        "stock": false
     },
     {
         "name": "Chicken",
         "price": "₹ 120",
         "image": "https://png.monster/wp-content/uploads/2022/04/png.monster-258.png",
-        "quantity": 6
+        "quantity": 6,
+        "stock": true
     },
     {
         "name": "Bread",
         "price": "₹ 90",
         "image": "https://i.pinimg.com/originals/6f/5f/53/6f5f5332cd54ba419022a4882935dbd5.png",
-        "quantity": 8
+        "quantity": 8,
+        "stock": false
     },
     {
         "name": "Rice",
         "price": "₹ 60",
         "image": "https://static.vecteezy.com/system/resources/thumbnails/028/086/328/small_2x/bowl-of-rice-isolated-on-transparent-background-file-cut-out-ai-generated-png.png",
-        "quantity": 10
+        "quantity": 10,
+        "stock": true
     },
     {
         "name": "Chips",
         "price": "₹ 110",
         "image": "https://i.pinimg.com/originals/9e/91/2a/9e912a971af1f8a7012c0a0bd808fa1b.png",
-        "quantity": 2
+        "quantity": 2,
+        "stock": false
     },
     {
         "name": "Pasta",
         "price": "₹ 130",
         "image": "https://img.freepik.com/premium-photo/uncooked-fusilli-pasta-isolated-white-background_120872-1616.jpg?size=626&ext=jpg&ga=GA1.1.553209589.1713744000&semt=ais",
-        "quantity": 9
+        "quantity": 9,
+        "stock": true
     },
     {
         "name": "Nuts",
         "price": "₹ 180",
         "image": "https://nuttygritties.com/cdn/shop/files/Artboard191copy3_1024x1024.png?v=1706682108",
-        "quantity": 5
+        "quantity": 5,
+        "stock": false
     },
     {
         "name": "Olive Oil",
         "price": "₹ 190",
         "image": "https://www.madewithdelmonte.in/uploads/pomace-1-l-pet-product_5b1a77c24d746.png",
-        "quantity": 7
+        "quantity": 7,
+        "stock": true
     },
     {
         "name": "Coffee",
         "price": "₹ 200",
         "image": "https://atlas-content-cdn.pixelsquid.com/stock-images/coffee-bag-WEaa66D-600.jpg",
-        "quantity": 3
+        "quantity": 3,
+        "stock": false
     },
     {
         "name": "Tea",
         "price": "₹ 210",
         "image": "https://veganmall.in/wp-content/uploads/2023/08/Cardamom-510x906.png",
-        "quantity": 6
+        "quantity": 6,
+        "stock": true
     },
     {
         "name": "Sugar",
         "price": "₹ 220",
         "image": "https://png.pngtree.com/png-clipart/20230814/original/pngtree-a-packet-of-sugar-maltose-granulated-daily-vector-picture-image_10610827.png",
-        "quantity": 4
+        "quantity": 4,
+        "stock": false
     },
     {
         "name": "Eggs",
         "price": "₹ 230",
         "image": "https://static.vecteezy.com/system/resources/previews/025/224/881/original/package-of-eggs-in-storage-from-a-farm-isolated-on-transparent-background-ai-generated-png.png",
-        "quantity": 8
+        "quantity": 8,
+        "stock": true
     },
     {
         "name": "Butter",
         "price": "₹ 240",
         "image": "https://pngimg.com/d/butter_PNG12.png",
-        "quantity": 5
+        "quantity": 5,
+        "stock": false
     },
     {
         "name": "Cheese",
         "price": "₹ 250",
         "image": "https://static.vecteezy.com/system/resources/thumbnails/009/354/733/small/cheese-clipart-design-illustration-free-png.png",
-        "quantity": 6
+        "quantity": 6,
+        "stock": true
     }
 ]
