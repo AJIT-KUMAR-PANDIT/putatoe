@@ -18,7 +18,7 @@ import bakery from "../../assets/bakery.json";
 import dairy from "../../assets/dairy.json";
 import drinks from "../../assets/drinks.json";
 import oil from "../../assets/oil.json";
-
+import { HashLink } from "react-router-hash-link";
 const Home = () => {
   const [isVisible, setIsVisible] = useState(true);
 
@@ -29,6 +29,7 @@ const Home = () => {
 
     return () => clearTimeout(timer);
   }, []);
+
   return (
     <>
       {isVisible ? (
@@ -75,13 +76,14 @@ const Home = () => {
               }}
             >
               {category.map((item, index) => (
-                <CardDisplayGrocery
-                  key={index}
-                  border={item.border}
-                  backgroundColor={item.backgroundColor}
-                  name={item.name}
-                  image={item.image}
-                />
+                <HashLink smooth to={`/#${index}`} key={index}>
+                  <CardDisplayGrocery
+                    border={item.border}
+                    backgroundColor={item.backgroundColor}
+                    name={item.name}
+                    image={item.image}
+                  />
+                </HashLink>
               ))}
             </div>
             <div className={StylesHome.textShop}>
@@ -110,8 +112,9 @@ const Home = () => {
                 />
               ))}
             </div>
-            <div className={StylesHome.textGrocery}>
-              Frash Fruits & Vegetable
+            <div
+              className={StylesHome.textGrocery} id="0">
+              Fresh Fruits & Vegetable
             </div>
             <div className={StylesHome.product}>
               {fruitsNveg.map((product, index) => (
@@ -123,7 +126,7 @@ const Home = () => {
                 />
               ))}
             </div>
-            <div className={StylesHome.textGrocery}>Cooking Oil & Ghee</div>
+            <div className={StylesHome.textGrocery} id="1">Cooking Oil & Ghee</div>
             <div className={StylesHome.product}>
               {oil.map((product, index) => (
                 <CardDisplayGroceryItems
@@ -134,7 +137,7 @@ const Home = () => {
                 />
               ))}
             </div>
-            <div className={StylesHome.textGrocery}>Bakery & Snacks</div>
+            <div className={StylesHome.textGrocery} id="2">Bakery & Snacks</div>
             <div className={StylesHome.product}>
               {bakery.map((product, index) => (
                 <CardDisplayGroceryItems
@@ -145,7 +148,7 @@ const Home = () => {
                 />
               ))}
             </div>
-            <div className={StylesHome.textGrocery}>Dairy & Eggs</div>
+            <div className={StylesHome.textGrocery} id="3">Dairy & Eggs</div>
             <div className={StylesHome.product}>
               {dairy.map((product, index) => (
                 <CardDisplayGroceryItems
@@ -156,7 +159,7 @@ const Home = () => {
                 />
               ))}
             </div>
-            <div className={StylesHome.textGrocery}>Beverages</div>
+            <div className={StylesHome.textGrocery} id="4">Beverages</div>
             <div className={StylesHome.product}>
               {drinks.map((product, index) => (
                 <CardDisplayGroceryItems
@@ -167,7 +170,7 @@ const Home = () => {
                 />
               ))}
             </div>
-            <div className={StylesHome.textGrocery}>All Products</div>
+            <div className={StylesHome.textGrocery} id="5">All Products</div>
             <div className={StylesHome.productAll}>
               {groceriesProduct.map((product, index) => (
                 <CardDisplayGroceryItems
