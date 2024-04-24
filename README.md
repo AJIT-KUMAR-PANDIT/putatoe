@@ -1,35 +1,33 @@
 # What is This
 
-This Is Assignment Test by Putatoe Solutions Private Limited for Web Development internship
-this is developed using ReactJs by (@AJIT-KUMAR-PANDIT)
+This is an assignment test by Putatoe Solutions Private Limited for the Web Development internship. It is developed using ReactJS by [@AJIT-KUMAR-PANDIT](https://github.com/AJIT-KUMAR-PANDIT).
 
 # Deployed Link
 
-this is the deployed link of the project 
-(https://putatoe-home.netlify.app/)
+This is the deployed link of the project: [Putatoe Home](https://putatoe-home.netlify.app/)
 
-# Requirments to Run Locally
+# Requirements to Run Locally
 
-1. Internet Connectivity ( becouse some of the assets in this site is directely integrated the images from the web )
+1. Internet Connectivity (because some of the assets in this site are directly integrated from the web)
 2. An IDE
-3. NodeJs
+3. Node.js
 
 # How to Run This App Locally 
 
 ## Steps
 
-In The Vs Code Terminal in project root directory Run The Following Commands:
+In the VS Code Terminal in the project root directory, run the following commands:
 
-to install all dependencies 
+To install all dependencies:
 
 ### `npm install`
 
-to start the application
+To start the application:
 
 ### `npm start`
 
-then go to port (http://localhost:3000/)
+Then go to port [http://localhost:3000/](http://localhost:3000/).
 
-if you want to build you can use
+If you want to build, you can use:
 
 ### `npm run build`
