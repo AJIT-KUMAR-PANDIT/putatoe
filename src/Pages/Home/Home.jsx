@@ -38,8 +38,8 @@ const Home = () => {
             backgroundColor: "#00838f",
           }}
         >
-          <img src={logo} height={"auto"} width={"211px"} />
-          <img src={loader} height={"auto"} width={"111px"} />
+          <img src={logo} height={"auto"} width={"211px"}  alt="logo"/>
+          <img src={loader} height={"auto"} width={"111px"}  alt="loader"/>
         </div>
       ) : (
         <div className={StylesHome.container}>
