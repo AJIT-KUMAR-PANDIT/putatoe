@@ -56,6 +56,8 @@
     justify-content: center;
     align-items: center;
     font-weight: 500;
+
+    border-radius: 0px 18px 0px 0px;
 }
 
 .outStock{
@@ -72,4 +74,6 @@
     justify-content: center;
     align-items: center;
     font-weight: 500;
+
+    border-radius: 0px 18px 0px 0px;
 }
