@@ -20,7 +20,7 @@ const Home = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsVisible(false);
-    }, 1000); // 1000 milliseconds = 1 seconds
+    }, 3000); // 3000 milliseconds = 1 seconds
 
     return () => clearTimeout(timer);
   }, []);
