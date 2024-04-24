@@ -10,6 +10,7 @@ import CardDisplayGroceryItems from "../../Components/Cards/CardDisplayGroceryIt
 import groceriesProduct from "../../assets/data.json";
 import category from "../../assets/categoriesdata.json";
 import sellerData from "../../assets/sellerdata.json";
+import LogoCircle from "../../Components/LogoCircle/LogoCircle";
 
 const Home = () => {
   return (
@@ -90,6 +91,7 @@ const Home = () => {
           </div>
         </div>
         <div className={StylesHome.bottom}></div>
+        <div><LogoCircle/></div>
         <div>
           <BottomNav />
         </div>

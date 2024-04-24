@@ -1,0 +1,26 @@
+
+.logoCircle {
+	position: fixed;
+	right: 15px;
+	bottom: 10%;
+	margin: 20px;
+	width: 31px;
+	height: 31px;
+	border-radius: 50%;
+	background-color: #00838f;
+	cursor: pointer;
+    padding: 11px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgLogo{
+    background-image: url(../../assets/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 26px;
+	height: 26px;
+}

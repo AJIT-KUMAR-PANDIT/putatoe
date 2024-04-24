@@ -8,7 +8,7 @@ const Silider = () => {
         <div className={StylesSilider.innerContainer}>
           <span className={StylesSilider.text}>
             {" "}
-            By All Your Grocery Shopping Hear
+            By All Your Grocery Shopping Here
           </span>
         </div>
       </div>
